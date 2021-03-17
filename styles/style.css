@@ -1,0 +1,73 @@
+body {
+    background-color:black;
+    margin:0;
+}
+
+header {
+    margin:0;
+    min-height:200px;
+    border-bottom:darkred;
+    background-image: url(/images/horizon.jpg);
+}
+
+#navbar {
+    top:50px;
+    display:flex;
+    justify-content:center;
+    border:1px solid white;
+}
+
+#main-content {
+    min-width:200px;
+    min-height:600px;
+    display:flex;
+    justify-content:center;
+}
+
+#logo {
+    width:300px;
+    max-height:80px;
+    border:1px solid white;
+    vertical-align: middle;
+}
+
+#content {
+    width:200px;
+    max-height:200px;
+    margin: 50px;
+}
+
+#content img {
+    width:200px;
+    max-height:200px;
+}
+
+#content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    text-align:center;
+}
+
+.align-left {
+    background-color: rgb(90, 9, 9);
+}
+
+.align-right {
+    background-color: rgb(9, 90, 36);
+}
+
+.align-center {
+    vertical-align: middle;
+    background-color: rgb(55, 82, 174);
+}
+
+
+#footer-content div {
+    background-color: darkred;
+    height: 100px;
+    text-align:center;
+    padding: 50px;
+}
+
+
+
