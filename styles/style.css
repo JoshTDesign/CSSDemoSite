@@ -13,15 +13,36 @@ header {
 #navbar {
     top:50px;
     display:flex;
-    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    justify-content: center;
 }
 
 nav ul {
 
 }
 
-nav li {
+#logo h1 {
+    font-family: 'Jura', sans-serif;
+    color:white;
+    text-align: center;
+}
 
+nav li {
+    list-style:none;
+    display:inline;
+    padding: 15px;
+    margin: 10px;
+    background-color:rgb(95, 0, 0);
+    border-radius: 5px;
+    border: 2px solid rgb(121,0,0);
+}
+
+nav li a {
+    font-family: 'Jura', sans-serif;
+    font-size: 10pt;
+    color:white;
+    text-decoration: none;
 }
 
 #main-content {
@@ -32,7 +53,7 @@ nav li {
 }
 
 #logo {
-    width:300px;
+    width:400px;
     max-height:80px;
     vertical-align: middle;
 }
